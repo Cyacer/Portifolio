@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#212A35;
+    background-color:#2D3B4D;
+    font-family:'Poppins', sans-serif;
   }
 `;
 

@@ -23,6 +23,8 @@ const Header = styled.header`
     background: rgb(47,62,82);
     background: radial-gradient(circle,rgba(47,62,82,1) 0%, rgba(32,40,51,1) 100% );
     background-repeat:no-repeat;
+    padding-bottom:0;
+    height:600px;
 
 `;
 
