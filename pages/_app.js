@@ -27,6 +27,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
       <Head>
+        <title>Portifólio | Cyacer - Desenvolvedor Front-End</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet" />
