@@ -1,10 +1,18 @@
-import styled from 'styled-components'
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react/react-in-jsx-scope */
+import styled from 'styled-components';
+import Navbar from '../src/navbar';
+import Sobre from '../src/sobre';
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+const Root = styled.div`
+
+`;
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <Root>
+      <Navbar />
+      <Sobre />
+    </Root>
+  );
 }
