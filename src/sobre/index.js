@@ -37,6 +37,7 @@ height:250px;
 border-radius:50%;
 border: 5px solid #4FB3B2;
 filter: blur(.1px);
+padding:10px;
 
 `;
 export default function Sobre() {
