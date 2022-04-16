@@ -27,6 +27,11 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="author" content="Gabriel Barreto / Cyacer" />
+        <meta name="description" content="Meu nome é Gabriel, desenvolvo interfaces mordenas e de alta qualidade, concentrado em desempenho, responsividade." />
+        <meta name="keywords" content=" sites, web, desenvolvimento, frontend, cyacer, dba, portifólio, website" />
+
         <title>Portifólio | Cyacer - Desenvolvedor Front-End</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
