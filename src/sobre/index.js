@@ -74,7 +74,7 @@ justify-content:center;
 `;
 export default function Sobre() {
   return (
-    <Introducao>
+    <Introducao id="Sobre">
       <Categoria>
         Sobre
       </Categoria>

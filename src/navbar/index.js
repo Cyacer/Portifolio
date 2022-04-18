@@ -18,6 +18,13 @@ flex-wrap:wrap;
 align-items:center;
 justify-content: space-between;
 padding:15px;
+
+background-color:#2D3B4D;
+
+
+
+
+
 `;
 const Header = styled.header`
     background: rgb(47,62,82);

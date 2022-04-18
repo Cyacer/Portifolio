@@ -3,6 +3,8 @@
 import styled from 'styled-components';
 import Navbar from '../src/navbar';
 import Sobre from '../src/sobre';
+import Skills from '../src/Skills';
+import Projetos from '../src/projetos';
 
 const Root = styled.div`
 
@@ -13,6 +15,8 @@ export default function Home() {
     <Root>
       <Navbar />
       <Sobre />
+      <Projetos />
+      <Skills />
     </Root>
   );
 }

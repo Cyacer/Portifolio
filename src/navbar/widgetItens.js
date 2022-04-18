@@ -5,6 +5,7 @@ const List = styled.ul`
 gap: 25px;
 display:flex;
 list-style:none;
+margin-right:40px;
 
 @media screen and(max-width: 600px){
   flex-direction:column;
@@ -28,8 +29,8 @@ font-weight:300;
 export default function WidgetItens() {
   return (
     <List>
-      <li><Itens href="#">Sobre</Itens></li>
-      <li><Itens href="#">Projetos</Itens></li>
+      <li><Itens href="#Sobre">Sobre</Itens></li>
+      <li><Itens href="#Projetos">Projetos</Itens></li>
       <li><Itens href="#">Skills</Itens></li>
       <li><Itens href="#">Contatos</Itens></li>
     </List>

@@ -5,6 +5,7 @@ import { SiFirefox } from 'react-icons/si';
 const Container = styled.div`
 display:flex;
 justify-content: space-around;
+
 `;
 
 const CamadaFirst = styled.div`
@@ -15,7 +16,7 @@ box-shadow:  20px 20px 29px #1f2732,
 width:12.5rem;
 box-sizing:border-box;
 padding:10px; 
-margin-top:40px;
+margin-top:80px;
 margin-bottom:40px;
 
 `;
