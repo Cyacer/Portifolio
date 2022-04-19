@@ -8,13 +8,15 @@ const GithubProject = styled.div`
 const Container = styled.ul`
 list-style:none;
 display:grid;
-grid-template-columns:1fr 1fr;    
+grid-template-columns:1fr 1fr;
+padding-bottom:40px;
 `;
 const Card = styled.li`
 text-align:center;
+
 `;
 const Titulo = styled.h3`
-
+align-items: center;
 
 `;
 
@@ -25,6 +27,13 @@ const Descricao = styled.p`
 const SaibaMais = styled.a`
 text-decoration:none;
 color:white;
+border: 1px solid white;
+border-radius:10%;
+background-color:#2D3B4D;
+padding:5px;
+
+
+
 
 `;
 export default function ProjetosApi() {
