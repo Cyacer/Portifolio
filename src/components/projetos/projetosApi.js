@@ -6,17 +6,33 @@ const GithubProject = styled.div`
 
 `;
 const Container = styled.ul`
+
+display:grid;
+padding:0 10px 30px 10px;
+@media screen and (min-width: 1024px ){
 list-style:none;
 display:grid;
 grid-template-columns:1fr 1fr;
-padding-bottom:40px;
+
+
+}
 `;
 const Card = styled.li`
-text-align:center;
+  text-align:center;
+  list-style:none;
+
+@media screen and (min-width: 1024px ){
+  text-align:center;
+}
 
 `;
 const Titulo = styled.h3`
-align-items: center;
+
+
+@media screen and (min-width: 1024px ){
+  align-items: center;
+
+}
 
 `;
 
@@ -25,6 +41,8 @@ const Descricao = styled.p`
 
 `;
 const SaibaMais = styled.a`
+
+padding:5px;
 text-decoration:none;
 color:white;
 border: 1px solid white;
@@ -32,7 +50,9 @@ border-radius:10%;
 background-color:#2D3B4D;
 padding:5px;
 
+@media screen and (min-width: 1024px ){
 
+}
 
 
 `;

@@ -1,46 +1,81 @@
-/* eslint-disable react/jsx-no-undef */
+import { AiFillGithub, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 /* eslint-disable react/react-in-jsx-scope */
 import styled from 'styled-components';
-import { AiOutlineLinkedin, AiOutlineMail, AiFillGithub } from 'react-icons/ai';
 
 const Perfil = styled.img`
+width:15.625rem;
+height:250px;
+border-radius:50%;
+border-radius:50%;
+border: 5px solid #4FB3B2;
+padding:0.625rem;
+
+
+
+@media screen and (min-width: 1024px ){
 width:250px;
 height:250px;
 border-radius:50%;
 border: 5px solid #4FB3B2;
 filter: blur(.1px);
 padding:10px;
-
+}
 `;
 
 const Contato = styled.div`
 display:flex;
 flex-direction:column;
+align-items:center;
+@media screen and (min-width: 1024px ){
+
+}
 `;
 const Linkedin = styled.a`
-font-size:32px;
 text-decoration:none;
 color:#4fb3b2;
+font-size:32px;
+@media screen and (min-width: 1024px ){
+
+
+}
 `;
 const AtivaLink = styled.span`
-visibility:hidden;
+  visibility:hidden;
+
+@media screen and (min-width: 1024px ){
+
+
+}
 
 `;
 const Email = styled.a`
 font-size:32px;
 text-decoration:none;
 color:#4fb3b2;
+@media screen and (min-width: 1024px ){
+
+}
 
 `;
 const Github = styled.a`
 font-size:32px;
 text-decoration:none;
 color:#4fb3b2;
+
+@media screen and (min-width: 1024px ){
+
+}
 `;
 const Itens = styled.div`
+
+
+@media screen and (min-width: 1024px ){
 display:flex;
 flex-direction:row;
-justify-content:center;`;
+justify-content:center;
+
+  }
+`;
 
 export default function Contatos() {
   return (

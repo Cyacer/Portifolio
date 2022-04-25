@@ -1,8 +1,8 @@
+import Head from 'next/head';
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/react-in-jsx-scope */
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import Head from 'next/head';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     background-color:#2D3B4D;
     font-family:'Poppins', sans-serif;
+    color: white
   }
 `;
 
