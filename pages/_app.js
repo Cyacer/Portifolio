@@ -6,13 +6,15 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     background-color:#2D3B4D;
     font-family:'Poppins', sans-serif;
-    color: white
-  }
+    color: white;
+
+
+
+      }
 `;
 
 const theme = {

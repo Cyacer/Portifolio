@@ -7,7 +7,7 @@ const List = styled.ul`
  padding:20px;
  flex-direction:column;
  align-items: center;
-@media screen and (min-width: 1024px ){
+@media (min-width: 1024px ){
   align-items: center;
 
  
@@ -19,7 +19,7 @@ const List = styled.ul`
 const Itens = styled.a`
 color: #fff;
 text-decoration: none;
-@media screen and (min-width: 1024px ){
+@media (min-width: 1024px ){
 font-size: 1rem;
 text-decoration: none;
 color: #fff;

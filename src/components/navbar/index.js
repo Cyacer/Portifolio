@@ -2,60 +2,51 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import styled from 'styled-components';
 
+import { Fundo, FundoNavbar } from '../../Theme/variaveis';
 import Resumo from './resumo';
 import WidgetItens from './widgetItens';
 
 const Header = styled.header`
     background: rgb(47,62,82);
-    background: radial-gradient(circle,rgba(47,62,82,1) 0%, rgba(32,40,51,1) 100% );
+    background:${FundoNavbar};
     background-repeat:no-repeat;
     width:100vw;
 
-    
-    @media screen and (min-width: 1024px ) {
+
+    @media (min-width: 1024px ) {
     background: rgb(47,62,82);
-    background: radial-gradient(circle,rgba(47,62,82,1) 0%, rgba(32,40,51,1) 100% );
+    background:${FundoNavbar};
     background-repeat:no-repeat;
     padding-bottom:0;
     height:600px;
     border-radius: 0% 0% 10% 10%  ;
+    width:100%;
     }
+
 `;
 const Home = styled.a`
 text-decoration: none;
 color: #fff;
-
-
-@media screen and (min-width: 1024px ){
+@media (min-width:1024px){
 font-size: 1rem;
 text-decoration: none;
 color: #fff;
 padding-left:10px;
 font-family:'Poppins', sans-serif;
 font-weight:400;
-
 }
 `;
 const Navigation = styled.nav`
-
-
-
-@media screen and (min-width: 1024px ) {
+background-color:#2D3B4D;
+@media (min-width: 1024px ) {
 display: flex;
 flex-wrap:wrap;
 align-items:center;
 justify-content: space-between;
 padding:15px;
-
-background-color:#2D3B4D;
-
+background-color:${Fundo};
 }
-
-
-
-
 `;
-
 const SvgWave = styled.svg`
 
 
@@ -66,11 +57,8 @@ const SvgWave = styled.svg`
 `;
 const ContainerSvg = styled.div`
 display:grid;
-width: 100vw;
-
 @media screen and (min-width: 1024px){
-  visibility:hidden;
-
+  display:none;
 }
 `;
 
