@@ -59,7 +59,7 @@ export default function Sobre() {
         <Titulo>
           Conheça um pouco de sobre mim
           <Descricao>
-            Meu nome é Gabriel Barreto, ou "Cyacer", me chame como preferir.
+            Meu nome é Gabriel Barreto.
             {' '}
             <p>
               Sou desenvolvedor

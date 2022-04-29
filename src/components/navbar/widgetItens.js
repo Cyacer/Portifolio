@@ -40,7 +40,7 @@ export default function WidgetItens() {
     <List>
       <ContainerItens><Itens href="#Sobre">Sobre</Itens></ContainerItens>
       <ContainerItens><Itens href="#Projetos">Projetos</Itens></ContainerItens>
-      <ContainerItens><Itens href="#">Skills</Itens></ContainerItens>
+      <ContainerItens><Itens href="#Skills">Skills</Itens></ContainerItens>
       <ContainerItens><Itens href="#">Contatos</Itens></ContainerItens>
     </List>
 

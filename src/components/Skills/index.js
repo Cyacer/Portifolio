@@ -26,7 +26,7 @@ font-size:72px;
 
 `;
 const Description = styled.p`
-
+margin-bottom:24px;
 @media (min-width: 1024px ){
 font-size:1.17rem;
 align-items:none;
@@ -37,7 +37,7 @@ padding-left:20px;
 
 export default function Skills() {
   return (
-    <Container>
+    <Container id='Skills'>
       <Categoria>
         Skills
       </Categoria>
