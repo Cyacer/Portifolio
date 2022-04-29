@@ -37,7 +37,7 @@ padding-left:20px;
 
 export default function Skills() {
   return (
-    <Container id='Skills'>
+    <Container id="Skills">
       <Categoria>
         Skills
       </Categoria>

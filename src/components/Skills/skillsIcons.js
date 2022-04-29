@@ -1,5 +1,7 @@
 import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3, DiJavascript, DiMysql, DiReact, DiSass } from 'react-icons/di';
+import {
+  DiCss3, DiJavascript, DiMysql, DiReact, DiSass,
+} from 'react-icons/di';
 import { SiNextdotjs, SiStyledcomponents } from 'react-icons/si';
 /* eslint-disable react/react-in-jsx-scope */
 import styled from 'styled-components';
