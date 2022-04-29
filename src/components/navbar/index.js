@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import styled from 'styled-components';
 
-import { Fundo, FundoNavbar } from '../../theme/variaveis';
+import { Fundo, FundoNavbar } from '../../Theme/variaveis';
 import Resumo from './resumo';
 import WidgetItens from './widgetItens';
 
