@@ -6,15 +6,16 @@ const Container = styled.div`
 display:flex;
 justify-content: space-around;
 
-@media screen and (min-width: 1024px ){
+@media (min-width: 1024px ){
 
 }
 `;
 
 const CamadaFirst = styled.div`
 
+
 @media (min-width:1024px){
-border-radius: 50px;
+  border-radius: 50px;
 background: #242E3B;
 box-shadow:  20px 20px 29px #1f2732,
              -20px -20px 29px #293544;
@@ -25,21 +26,23 @@ margin-top:80px;
 margin-bottom:40px;
 }
 `;
+
 const Icon = styled.i`
 display:none;
 @media (min-width:1024px){
-font-size:12.5rem;
+  font-size:12.5rem;
 display: flex;
 color:#4FB3B2;
 }
 `;
 const BibliografiaResumo = styled.p`
 
-@media (min-width: 1024px ){
+@media (min-width:1024px){
 color: white;
 display:flex;
 flex-direction:column;
 justify-content: center;
+
 }
 `;
 const Nome = styled.h2`
@@ -52,7 +55,6 @@ font-size:32px;
 }
 `;
 const AreaProf = styled.p`
-
 
 @media (min-width: 1024px ){
   margin:0;
