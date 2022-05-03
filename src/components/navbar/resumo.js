@@ -5,13 +5,14 @@ import styled from 'styled-components';
 const Container = styled.div`
 display:flex;
 justify-content: center;
-height: 90vh;
+padding-top: 50%;
+padding-bottom:50%;
 align-items:center;
 @media (min-width: 1024px ){
   display: flex;
   justify-content: space-around;
-
-  height:50vh;
+  padding-top: 5%;
+  padding-bottom:0;
 }
 `;
 

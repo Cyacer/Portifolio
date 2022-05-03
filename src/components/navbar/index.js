@@ -11,6 +11,7 @@ const Header = styled.header`
     background:${FundoNavbar};
     background-repeat:no-repeat;
     width:100vw;
+    position:relative;
 
 
     @media (min-width: 1024px ) {
