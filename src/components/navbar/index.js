@@ -58,7 +58,6 @@ export default function Navbar() {
         <WidgetItens />
       </Navigation>
 
-     
     </Header>
   );
 }
