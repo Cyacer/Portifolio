@@ -6,6 +6,7 @@ import SkillsIcons from './skillsIcons';
 const Container = styled.div` 
 color:white;
 box-sizing:border-box;
+padding: 30px;
 
 `;
 const Categoria = styled.h2`

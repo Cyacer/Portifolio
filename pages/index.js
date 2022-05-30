@@ -2,11 +2,11 @@
 /* eslint-disable react/react-in-jsx-scope */
 import styled from 'styled-components';
 import Navbar from '../src/components/navbar';
+import Resumo from '../src/components/resumo';
 import Sobre from '../src/components/sobre';
 import Skills from '../src/components/Skills';
 import Projetos from '../src/components/projetos';
 import Footer from '../src/components/footer';
-import GitHubCorner from '../src/components/aviso';
 
 const Root = styled.div`
 
@@ -15,8 +15,8 @@ const Root = styled.div`
 export default function Home() {
   return (
     <Root>
-      <GitHubCorner />
       <Navbar />
+      <Resumo />
       <Sobre />
       <Projetos />
       <Skills />

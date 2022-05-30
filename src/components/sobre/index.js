@@ -8,7 +8,7 @@ import Contatos from './contatos';
 const Introducao = styled.div`
 color: #000;
 background-color:#2D3B4D;
-
+padding:30px;
 
 `;
 const Categoria = styled.h2`

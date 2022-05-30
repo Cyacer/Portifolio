@@ -4,9 +4,13 @@ import styled from 'styled-components';
 const List = styled.ul`
  list-style:none;
  display:flex;
- padding:20px;
- flex-direction:column;
+ flex-direction:row;
  align-items: center;
+ gap: 1rem;
+ margin:0;
+ &:last-child{
+ padding-right:10px;
+}
 @media (min-width: 1024px){
   flex-direction:row;
   align-items: center;
@@ -41,7 +45,6 @@ export default function WidgetItens() {
       <ContainerItens><Itens href="#Sobre">Sobre</Itens></ContainerItens>
       <ContainerItens><Itens href="#Projetos">Projetos</Itens></ContainerItens>
       <ContainerItens><Itens href="#Skills">Skills</Itens></ContainerItens>
-      <ContainerItens><Itens href="#">Contatos</Itens></ContainerItens>
     </List>
 
   );

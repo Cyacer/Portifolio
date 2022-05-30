@@ -2,17 +2,18 @@ import { SiFirefox } from 'react-icons/si';
 /* eslint-disable react/react-in-jsx-scope */
 import styled from 'styled-components';
 
+import { FundoNavbar } from '../../Theme/variaveis';
+
 const Container = styled.div`
 display:flex;
 justify-content: center;
-padding-top: 50%;
-padding-bottom:50%;
 align-items:center;
+background:${FundoNavbar};
+height:700px;
+padding-top: 100px;
 @media (min-width: 1024px ){
   display: flex;
   justify-content: space-around;
-  padding-top: 5%;
-  padding-bottom:0;
 }
 `;
 
@@ -20,11 +21,11 @@ const CamadaFirst = styled.div`
 
 
 @media (min-width:1024px){
-  border-radius: 50px;
+  border-radius: 100%;
 background: #242E3B;
 box-shadow:  20px 20px 29px #1f2732,
              -20px -20px 29px #293544;
-width:12.5rem;
+width:400px;
 box-sizing:border-box;
 padding:10px; 
 margin-top:80px;
@@ -35,17 +36,18 @@ margin-bottom:40px;
 const Icon = styled.i`
 display:none;
 @media (min-width:1024px){
-font-size:12.5rem;
+font-size:400px;
 display: flex;
 color:#4FB3B2;
 }
 `;
 const BibliografiaResumo = styled.p`
-  font-size:24px;
+  font-size:32px;
   text-align:center;
 
 justify-content: center;
 @media (min-width:1024px){
+font-size:60px;
 color: white;
 display:flex;
 flex-direction:column;
@@ -83,8 +85,10 @@ padding:10px 60px;
 border-radius:10%;
 border:3px solid #344559;
 `;
+
 export default function Resumo() {
   return (
+
     <Container>
 
       <BibliografiaResumo>
