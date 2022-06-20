@@ -7,7 +7,7 @@ import Sobre from '../src/components/sobre';
 import Skills from '../src/components/Skills';
 import Projetos from '../src/components/projetos';
 import Footer from '../src/components/footer';
-import Script from 'next/script'
+import Script from 'next/script';
 
 const Root = styled.div`
 
