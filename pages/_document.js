@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { GA_TRACKING_ID } from '../lib/gtag';
 
 export default class MyDocument extends Document {
     render() {
