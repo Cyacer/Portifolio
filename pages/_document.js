@@ -4,6 +4,32 @@ import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
+    render() {
+        return (
+            <Html lang="en">
+
+                {/* other code */}
+
+            <Head>
+                    {/* Global Site Tag (gtag.js) - Google Analytics */}
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+                    />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+                        }}
+                    />
+            </Head>
+
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
@@ -26,5 +52,8 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal();
     }
+           </Html>
+           )
+           }
   }
 }
