@@ -3,7 +3,7 @@ import Head from 'next/head';
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/react-in-jsx-scope */
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import Script from 'next/script'
+import script from 'next/script'
 
 const GlobalStyle = createGlobalStyle`
   body {
