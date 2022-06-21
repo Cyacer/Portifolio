@@ -1,9 +1,10 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-props-no-spreading */
-import Document, {
-  Html, Head, Main, NextScript,
-} from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+
+import { GA_TRACKING_ID } from '../libs/gtag';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -29,16 +30,9 @@ export default class MyDocument extends Document {
       sheet.seal();
     }
   }
-}
-
-export class GoogleAnalytics extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
+  /* google analytics */
 
   render() {
-    const GA_TRACKING_ID = 'G-D5GEC46GEM';
     return (
       <Html lang="pt-br">
         <Head>
