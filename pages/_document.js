@@ -1,7 +1,9 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-props-no-spreading */
-import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Document, {
+  Head, Html, Main, NextScript,
+} from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 import { GA_TRACKING_ID } from '../libs/gtag';
