@@ -1,9 +1,9 @@
-import { AiFillHtml5 } from 'react-icons/ai';
-import {
-  DiCss3, DiJavascript, DiMysql, DiReact, DiSass,
-} from 'react-icons/di';
-import { SiNextdotjs, SiStyledcomponents } from 'react-icons/si';
+/* eslint-disable no-unused-vars */
+/* eslint-disable prefer-const */
 /* eslint-disable react/react-in-jsx-scope */
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3, DiJavascript, DiMysql, DiReact, DiSass } from 'react-icons/di';
+import { SiNextdotjs, SiStyledcomponents } from 'react-icons/si';
 import styled from 'styled-components';
 
 const ContainerIcons = styled.ul`
@@ -17,6 +17,7 @@ min-height: 300px;
 padding-left:0;
 display:grid;
 grid-template-columns: repeat(4, 1fr);
+height:450px;
 }`;
 const LiIcons = styled.li`
 list-style:none;
@@ -30,13 +31,21 @@ padding: 10px 20%;
 const ItensIcons = styled.span`
 padding:0 8%;
 background-color:#273342;
+padding:0 15px;
+border-radius: 100%;
 @media (min-width: 1024px ){
 background-color:#273342;
 padding:15px;
 display:flex;
 justify-content:center;
+border-radius: 100%;
 };
-
+&:hover{
+  padding: 10px 25px ;
+  @media (min-width: 1024px){
+    padding:25px ; 
+  }
+}
 `;
 export default function SkillsIcons() {
   return (
