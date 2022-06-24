@@ -17,6 +17,6 @@ module.exports = {
   plugins: [
     'react',
   ],
-  rules: { 'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }], 'max-classes-per-file': 'off' },
+  rules: { 'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }], 'max-classes-per-file': 'off', "linebreak-style": 0, 'object-curly-newline': 'off',},
 
 };
