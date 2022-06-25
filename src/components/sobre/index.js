@@ -56,7 +56,7 @@ export default function Sobre() {
       </Categoria>
       <Container>
         <Contatos />
-        <Titulo >
+        <Titulo>
           Conheça um pouco de sobre mim
           <Descricao>
             Meu nome é Gabriel Barreto.

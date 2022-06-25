@@ -79,7 +79,7 @@ export default function ProjetosApi() {
 
   return (
     <GithubProject>
-      <Container data-aos="zoom-in"  data-aos-easing="ease-in-sine" data-aos-offset="300">
+      <Container data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-offset="300">
         { repositories.map((repository) => (
           <Card>
             <Titulo>{repository.name}</Titulo>

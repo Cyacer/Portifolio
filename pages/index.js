@@ -21,13 +21,6 @@ export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1500 });
     Aos.refresh();
-    document.addEventListener('aos:in', ({ detail }) => {
-      console.log('animated in', detail);
-    });
-    
-    document.addEventListener('aos:out', ({ detail }) => {
-      console.log('animated out', detail);
-    });
   }, []);
   return (
     <Root>
