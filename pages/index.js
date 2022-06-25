@@ -19,7 +19,7 @@ const Root = styled.div`
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 3000});
     Aos.refresh();
   }, []);
   return (

@@ -53,7 +53,7 @@ const Desc = styled.p`
 `;
 export default function SkillsIcons() {
   return (
-    <ContainerIcons data-aos="zoom-in">
+    <ContainerIcons data-aos="zoom-in"  data-aos-easing="ease-in-sine">
       <LiIcons>
         <ItensIcons>
           <AiFillHtml5 />
