@@ -50,7 +50,7 @@ font-weight:400;
 
 export default function Sobre() {
   return (
-    <Introducao id="Sobre" data-aos="zoom-in"data-aos-easing="ease-in-sine">
+    <Introducao id="Sobre" data-aos="zoom-in" data-aos-easing="ease-in-sine">
       <Categoria>
         Sobre
       </Categoria>
