@@ -50,13 +50,13 @@ font-weight:400;
 
 export default function Sobre() {
   return (
-    <Introducao id="Sobre" data-aos="fade-right">
+    <Introducao id="Sobre" data-aos="zoom-in" data-aos-duration="3000">
       <Categoria>
         Sobre
       </Categoria>
       <Container>
         <Contatos />
-        <Titulo>
+        <Titulo >
           Conheça um pouco de sobre mim
           <Descricao>
             Meu nome é Gabriel Barreto.

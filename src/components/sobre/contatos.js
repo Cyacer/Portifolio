@@ -55,7 +55,7 @@ justify-content:center;
 
 export default function Contatos() {
   return (
-    <Contato>
+    <Contato >
       <Perfil src="https://cdn.discordapp.com/attachments/962910949994541076/964393771624181800/277999728_722500325423212_2400233973639669092_n.webp" />
       <Itens>
         <Email href="mailto:gabrielb.defigueiredo@gmail.com">
