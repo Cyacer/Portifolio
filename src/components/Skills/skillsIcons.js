@@ -17,7 +17,7 @@ min-height: 300px;
 padding-left:0;
 display:grid;
 grid-template-columns: repeat(4, 1fr);
-height:450px;
+height:500px;
 }`;
 const LiIcons = styled.li`
 list-style:none;
@@ -29,13 +29,12 @@ padding: 10px 20%;
 
 `;
 const ItensIcons = styled.span`
-padding:0 8%;
 background-color:#273342;
-padding:0 15px;
+padding:0 20px;
 border-radius: 100%;
 @media (min-width: 1024px ){
 background-color:#273342;
-padding:15px;
+padding:25px;
 display:flex;
 justify-content:center;
 border-radius: 100%;
@@ -43,9 +42,14 @@ border-radius: 100%;
 &:hover{
   padding: 10px 25px ;
   @media (min-width: 1024px){
-    padding:25px ; 
+    padding:40px ; 
   }
 }
+`;
+const Desc = styled.p`
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
 `;
 export default function SkillsIcons() {
   return (
@@ -54,41 +58,49 @@ export default function SkillsIcons() {
         <ItensIcons>
           <AiFillHtml5 />
         </ItensIcons>
+        <Desc>HTML</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <DiCss3 />
         </ItensIcons>
+        <Desc>CSS</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <DiJavascript />
         </ItensIcons>
+        <Desc>JAVASCRIPT</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <DiSass />
         </ItensIcons>
+        <Desc>SASS</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <DiReact />
         </ItensIcons>
+        <Desc>REACT</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <SiNextdotjs />
         </ItensIcons>
+        <Desc>NEXT.JS</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <DiMysql />
         </ItensIcons>
+        <Desc>MYSQL</Desc>
       </LiIcons>
       <LiIcons>
         <ItensIcons>
           <SiStyledcomponents />
         </ItensIcons>
+        <Desc>STYLED</Desc>
       </LiIcons>
     </ContainerIcons>
   );
