@@ -9,6 +9,7 @@ const Header = styled.header`
     background-repeat:no-repeat;
     width:100vw;
     position:fixed;
+    z-index:100000000000000;
 
     @media (min-width: 1024px ) {
     background-repeat:no-repeat;

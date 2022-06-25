@@ -50,7 +50,7 @@ font-weight:400;
 
 export default function Sobre() {
   return (
-    <Introducao id="Sobre">
+    <Introducao id="Sobre" data-aos="fade-right">
       <Categoria>
         Sobre
       </Categoria>

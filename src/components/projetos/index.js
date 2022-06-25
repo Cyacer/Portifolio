@@ -7,7 +7,7 @@ const Container = styled.div`
 color:white;
 background-color:#273342;
 padding-top:40px;
-border-radius:5%;
+
 @media (min-width: 1024px ){
 
 

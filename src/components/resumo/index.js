@@ -89,7 +89,7 @@ border:3px solid #344559;
 export default function Resumo() {
   return (
 
-    <Container>
+    <Container data-aos="fade-up">
 
       <BibliografiaResumo>
         Olá, eu sou

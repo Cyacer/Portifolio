@@ -8,17 +8,39 @@ const GithubProject = styled.div`
 const Container = styled.ul`
 display:grid;
 padding:0 10px 30px 10px;
+column-gap: 20px; 
+row-gap: 20px;
 @media (min-width:1024px){
   list-style:none;
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3,1fr );
 padding-bottom:40px;
+column-gap: 50px; 
+row-gap: 50px;
+padding:30px;
 }
 
 `;
 const Card = styled.li`
   text-align:center;
   list-style:none;
+  background: rgb(45,59,77);
+background: -moz-linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+background: -webkit-linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+background: linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d3b4d",endColorstr="#4fb3b2",GradientType=1);
+    border-radius:5%;
+    padding-bottom: 15px;
+  @media (min-width:1024px){
+    background: rgb(45,59,77);
+background: -moz-linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+background: -webkit-linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+background: linear-gradient(155deg, rgba(45,59,77,1) 60%, rgba(79,179,178,0.9920343137254902) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d3b4d",endColorstr="#4fb3b2",GradientType=1);
+    border-radius:5%;
+    padding-bottom: 15px;
+  }
 
 `;
 const Titulo = styled.h3`
